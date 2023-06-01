@@ -26,5 +26,5 @@ resource "docker_container" "nginx" {
 }
 variable "TFC_AGENT_NAME" {
   type    = string
-  default = "default-value"
+  default = "agent1"
 }
