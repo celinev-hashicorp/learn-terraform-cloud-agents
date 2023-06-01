@@ -24,3 +24,7 @@ resource "docker_container" "nginx" {
     external = 8000
   }
 }
+variable "TFC_AGENT_NAME" {
+  type    = string
+  default = "default-value"
+}
